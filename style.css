@@ -1,0 +1,39 @@
+.fase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bookcontainer {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    margin: 20px;
+    width: 80%;
+}
+
+.book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+h3, h2, img {
+    margin: 10px;
+}
+
+img {
+    width: 80%;
+}
+
+
+
+@media only screen and (min-width: 800px) {
+    .bookcontainer {
+        flex-direction: row;
+    }
+}
